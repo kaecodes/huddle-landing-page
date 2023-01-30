@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --violet: hsl(257, 40%, 49%); 
+  --soft-magenta: hsl(300, 69%, 71%); 
+}
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  border: none; 
+  outline: none; 
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('./images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-color: var(--violet);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem; 
+}
+
+.logo {
+  width: 100%;
+  padding: 0.5rem 0; 
+  margin-bottom: 3rem;
+}
+
+.logo img {
+  width: 150px; 
+}
+
+.illustration {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 3rem; 
+}
+
+.illustration img {
+  width: 100%; 
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  width: 90%; 
+  margin: auto; 
+  padding: 1.2rem 0; 
+  text-align: center;
+  color: white; 
+}
+
+.text p {
+  line-height: 2rem;
+  width: 95%; 
+  margin: auto; 
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: white; 
+}
+
+.register {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.register button {
+  width: 70%;
+  padding: 0.9rem 2rem; 
+  font-size: 1rem;
+  background-color: white;
+  color: var(--violet); 
+  border-radius: 2rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; 
+}
+
+.social i {
+  color: white; 
+  border: 1px solid white; 
+  border-radius: 50%;
+  padding: 0.5rem; 
+}
+
+.social i.fa-facebook-f {
+  padding: 0.5rem 0.7rem; 
+}
