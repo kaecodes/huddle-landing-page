@@ -28,10 +28,8 @@ main {
   padding: 1.8rem; 
 }
 
-.logo {
-  width: 100%;
-  padding: 0.5rem 0; 
-  margin-bottom: 3rem;
+header {
+  margin: 1.7rem; 
 }
 
 .logo img {
@@ -48,14 +46,14 @@ main {
   width: 100%; 
 }
 
-.text {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.text h2 {
+.content h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   width: 90%; 
@@ -65,7 +63,7 @@ main {
   color: white; 
 }
 
-.text p {
+.content p {
   line-height: 2rem;
   width: 95%; 
   margin: auto; 
@@ -89,20 +87,21 @@ main {
   border-radius: 2rem;
 }
 
-.social {
+footer.social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem; 
+  margin-bottom: 2rem;
 }
 
-.social i {
+footer.social i {
   color: white; 
   border: 1px solid white; 
   border-radius: 50%;
   padding: 0.5rem; 
 }
 
-.social i.fa-facebook-f {
+footer.social i.fa-facebook-f {
   padding: 0.5rem 0.7rem; 
 }
